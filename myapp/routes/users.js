@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const uuid = require('uuid').v4;
+const User = require('../models/UserModel');
+
 const users = [];
 /* GET users listing. */
 router.get('/', (req, res) => {
@@ -10,12 +12,14 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
     // console.log(req.body);
     const user = {
-        id: uuid(),
         ...req.body
     };
     // console.log('user', user);
     users.push(user);
-    res.send({ email: user.email, login: user.login, name: user.name});
+    User.forge(user).save().then(() => {
+        res.send(user);
+    });
+
 });
 
 module.exports = router;
