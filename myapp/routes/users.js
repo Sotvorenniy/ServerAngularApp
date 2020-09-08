@@ -8,12 +8,12 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-    console.log(req.body);
+    // console.log(req.body);
     const user = {
         id: uuid(),
         ...req.body
     };
-    console.log('user', user);
+    // console.log('user', user);
     users.push(user);
     res.send({ email: user.email, login: user.login, name: user.name});
 });

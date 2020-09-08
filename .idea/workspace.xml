@@ -2,9 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/models/UserModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/body-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/bytes/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/bytes/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/bytes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/bytes/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/bytes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/bytes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/bytes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/iconv-lite/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/iconv-lite/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/dist/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/lib/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/test/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/test/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/test/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/test/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/qs/test/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/qs/test/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/node_modules/raw-body/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +56,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angularProgect-master" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
@@ -41,7 +77,9 @@
       <workItem from="1599132878230" duration="502000" />
       <workItem from="1599133564363" duration="4121000" />
       <workItem from="1599141575785" duration="2302000" />
-      <workItem from="1599461442546" duration="4061000" />
+      <workItem from="1599461442546" duration="4674000" />
+      <workItem from="1599470651035" duration="2516000" />
+      <workItem from="1599549156089" duration="9045000" />
     </task>
     <task id="LOCAL-00001" summary="add all files">
       <created>1599468868244</created>
@@ -50,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599468868244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add all files">
+      <created>1599469012849</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599469012849</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,10 +109,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add all files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="562" y="190" key="CommitChangelistDialog2" timestamp="1599468868105">
+    <state x="562" y="190" key="CommitChangelistDialog2" timestamp="1599469012794">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="562" y="190" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599468868105" />
+    <state x="562" y="190" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599469012794" />
     <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl" timestamp="1599465318823">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -76,10 +121,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="461" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1599468583554" />
-    <state x="560" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599468874386">
+    <state x="560" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599469015366">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599468874386" />
+    <state x="560" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599469015366" />
     <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1599468932030">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
