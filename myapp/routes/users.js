@@ -16,8 +16,9 @@ router.post('/', (req, res) => {
     };
     // console.log('user', user);
     users.push(user);
-    User.forge(user).save().then(() => {
-        res.send(user);
+
+    User.forge(user).save().then((model) => {
+        res.send(model);
     });
 
 });

@@ -1,8 +1,9 @@
 const knex = require('./db').knex;
-const User = require('./models/UserModel');
+const Todo = require('./models/TodoModel');
 
-User.count().then((count) => {
-    console.log(`There are ${count} users`);
+
+Todo.count().then((count) => {
+    console.log(`There are ${count} todos`);
 }).catch((err) => {
     console.log(err);
 }).finally(() => {
