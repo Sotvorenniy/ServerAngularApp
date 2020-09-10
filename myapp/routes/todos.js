@@ -2,15 +2,17 @@ const express = require('express');
 const router = express.Router();
 const Todo = require('../models/TodoModel');
 const moment = require('moment');
+const knex = require('../db').knex;
+const bookshelf = require('bookshelf')(knex);
+const cascadeDelete = require('bookshelf-cascade-delete');
+bookshelf.plugin(cascadeDelete);
 
-
-const todos = [];
-
-console.log(todos);
 
 /* GET users listing. */
 router.get('/', (req, res) => {
-    res.send(todos);
+    Todo.fetchAll().then((todoList) => {
+        res.send(todoList);
+    });
 });
 
 router.post('/', (req, res) => {
@@ -21,12 +23,21 @@ router.post('/', (req, res) => {
         created_at,
     };
 
-    todos.push(todo);
-
     Todo.forge().save(todo).then((model) => {
-
+        console.log(model);
         res.send(model);
     });
+});
+
+// router.put()
+
+router.delete('/:id', async (req, res) => {
+    const todo = await Todo.forge({id: req.params.id}).fetch();
+    const todoJson = JSON.stringify(todo);
+
+    await todo.destroy();
+
+    res.send(todoJson);
 });
 
 module.exports = router;
