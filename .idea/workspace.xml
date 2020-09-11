@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="" />
+    <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myapp/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/knexfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/migrations/20200911132335_users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/migrations/20200911132410_todos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/seeds/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/ knexfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/db.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,10 +51,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/../angular/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myapp" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,7 +81,7 @@
       <workItem from="1599722867580" duration="14669000" />
       <workItem from="1599746044772" duration="4087000" />
       <workItem from="1599750357444" duration="5274000" />
-      <workItem from="1599807935940" duration="3689000" />
+      <workItem from="1599807935940" duration="6271000" />
     </task>
     <task id="LOCAL-00001" summary="add all files">
       <created>1599468868244</created>
@@ -113,11 +146,36 @@
       <option name="project" value="LOCAL" />
       <updated>1599818276222</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="node modules">
+      <created>1599818375511</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599818375511</updated>
+    </task>
+    <task id="LOCAL-00011" summary="node modules">
+      <created>1599818463797</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599818463797</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -130,17 +188,18 @@
     <MESSAGE value="add todo to database" />
     <MESSAGE value="delete node add them to .gitignore" />
     <MESSAGE value="delete node modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete node modules" />
+    <MESSAGE value="node modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="node modules" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="324" width="530" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599816179334">
+    <state x="690" y="324" width="540" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599818756850">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="690" y="324" width="530" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1599816179334" />
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1599818276162">
+    <state x="690" y="324" width="540" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1599818756850" />
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1599818463033">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818276162" />
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818463033" />
     <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl" timestamp="1599750031440">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -153,14 +212,14 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1044@0.0.1920.1044" timestamp="1599729757253" />
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599818278516">
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599818382555">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818278516" />
-    <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599818092954">
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818382555" />
+    <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599818427478">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818092954" />
+    <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818427478" />
     <state x="141" y="37" width="1646" height="904" key="find.popup" timestamp="1599747302845">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
