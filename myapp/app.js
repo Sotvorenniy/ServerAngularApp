@@ -1,4 +1,6 @@
 const createError = require('http-errors');
+const bodyParser = require('body-parser');
+const jwt = require('jsonwebtoken');
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
@@ -11,6 +13,8 @@ const todosRouter = require('./routes/todos');
 
 const app = express();
 
+
+
 // view engine setup
 app.use(cors());
 app.set('views', path.join(__dirname, 'views'));
@@ -21,10 +25,15 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(bodyParser.json());
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/todo-list', todosRouter);
+
+
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

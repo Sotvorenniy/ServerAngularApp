@@ -5,11 +5,11 @@ exports.up = function(knex) {
             table.increments('id').primary();
             table.string('login');
             table.string('name');
-            table.string('last_name');
             table.string('email');
             table.string('password');
-            table.timestamp('created_at');
-            table.timestamp('updated_at');
+            table.string('token').unique();
+            table.timestamp('created_at').defaultTo(knex.fn.now());
+            table.timestamp('updated_at').defaultTo(knex.fn.now());
         });
 };
 

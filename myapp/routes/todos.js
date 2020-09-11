@@ -24,12 +24,21 @@ router.post('/', (req, res) => {
     };
 
     Todo.forge().save(todo).then((model) => {
-        console.log(model);
+        // console.log(model);
         res.send(model);
     });
 });
 
-// router.put()
+ // router.put('/:id', async (req, res) => {
+ //     const todo = await Todo.forge({id: req.params.id}).fetch();
+ //
+ //     const todoJson = JSON.stringify(todo.title);
+ //
+ //     await todo.
+ //
+ //     res.send(todoJson, todo.editing = true);
+ //
+ // });
 
 router.delete('/:id', async (req, res) => {
     const todo = await Todo.forge({id: req.params.id}).fetch();
