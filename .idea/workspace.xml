@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="add todo to database">
-      <change afterPath="$PROJECT_DIR$/myapp/ knexfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/belongs_to2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/models/TodoModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/models/TodoModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/node_modules/core-js/library/modules/es6.date.to-primitive.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/node_modules/core-js/library/modules/es6.date.to-string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +48,7 @@
       <workItem from="1599722867580" duration="14669000" />
       <workItem from="1599746044772" duration="4087000" />
       <workItem from="1599750357444" duration="5274000" />
-      <workItem from="1599807935940" duration="3382000" />
+      <workItem from="1599807935940" duration="3689000" />
     </task>
     <task id="LOCAL-00001" summary="add all files">
       <created>1599468868244</created>
@@ -108,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599817961115</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="delete node add them to .gitignore">
+      <created>1599818047941</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599818047941</updated>
+    </task>
+    <task id="LOCAL-00009" summary="delete node modules">
+      <created>1599818276222</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599818276222</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,17 +129,18 @@
     <MESSAGE value="add data to database" />
     <MESSAGE value="add todo to database" />
     <MESSAGE value="delete node add them to .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete node add them to .gitignore" />
+    <MESSAGE value="delete node modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete node modules" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="324" width="530" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599816179334">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="690" y="324" width="530" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1599816179334" />
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1599817960152">
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1599818276162">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599817960152" />
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818276162" />
     <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl" timestamp="1599750031440">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -147,10 +153,14 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1044@0.0.1920.1044" timestamp="1599729757253" />
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599817964304">
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599818278516">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599817964304" />
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818278516" />
+    <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599818092954">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818092954" />
     <state x="141" y="37" width="1646" height="904" key="find.popup" timestamp="1599747302845">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
