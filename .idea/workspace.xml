@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="add todo to database">
+      <change afterPath="$PROJECT_DIR$/myapp/ knexfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/belongs_to2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/selectors/todo.selector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/selectors/todo.selector.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/TodoModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/models/TodoModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/core-js/library/modules/es6.date.to-primitive.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/node_modules/core-js/library/modules/es6.date.to-string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../angular" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1h00oViVDPCkEu5QQSkguKU2xNB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,7 +56,8 @@
       <workItem from="1599636472584" duration="20149000" />
       <workItem from="1599722867580" duration="14669000" />
       <workItem from="1599746044772" duration="4087000" />
-      <workItem from="1599750357444" duration="4295000" />
+      <workItem from="1599750357444" duration="5274000" />
+      <workItem from="1599807935940" duration="3382000" />
     </task>
     <task id="LOCAL-00001" summary="add all files">
       <created>1599468868244</created>
@@ -97,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599665079443</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delete node add them to .gitignore">
+      <created>1599817961115</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599817961115</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,13 +123,18 @@
     <MESSAGE value="minor refactoring" />
     <MESSAGE value="add data to database" />
     <MESSAGE value="add todo to database" />
-    <option name="LAST_COMMIT_MESSAGE" value="add todo to database" />
+    <MESSAGE value="delete node add them to .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete node add them to .gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="562" y="190" key="CommitChangelistDialog2" timestamp="1599665084142">
+    <state x="690" y="324" width="530" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599816179334">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="562" y="190" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599665084142" />
+    <state x="690" y="324" width="530" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1599816179334" />
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1599817960152">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599817960152" />
     <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl" timestamp="1599750031440">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -131,10 +147,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1044@0.0.1920.1044" timestamp="1599729757253" />
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599750773929">
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599817964304">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599750773929" />
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599817964304" />
     <state x="141" y="37" width="1646" height="904" key="find.popup" timestamp="1599747302845">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -143,9 +159,9 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="624" y="238" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1599727344187" />
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1599727351008">
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1599817848887">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1599727351008" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1599817848887" />
   </component>
 </project>

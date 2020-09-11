@@ -4,7 +4,9 @@ const bookshelf = require('bookshelf')(knex);
 const Todo = bookshelf.Model.extend({
     tableName: 'todos',
     idAttribute: 'id',
-    // todoList: function() { return this.belongsTo(User) },
+    todoList: function() {
+        return this.belongsTo(User)
+    },
 });
 
 
