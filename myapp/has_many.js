@@ -5,11 +5,11 @@ async function doQuery() {
 
     try {
 
-        let val = await User.where({ id: 137 }).fetch({
+        let val = await User.where({ id: 13 }).fetch({
             withRelated: ['todos'], require: true
         });
 
-        console.log(val.toJSON());
+        // console.log(val.toJSON());
 
     } catch (e) {
 

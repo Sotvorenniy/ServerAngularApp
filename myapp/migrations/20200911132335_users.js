@@ -5,9 +5,9 @@ exports.up = function(knex) {
             table.increments('id').primary();
             table.string('login');
             table.string('name');
-            table.string('email');
-            table.string('password');
+            table.string('email').unique();
             table.string('token').unique();
+            table.string('password');
             table.timestamp('created_at').defaultTo(knex.fn.now());
             table.timestamp('updated_at').defaultTo(knex.fn.now());
         });
