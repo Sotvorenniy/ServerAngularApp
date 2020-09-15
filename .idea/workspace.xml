@@ -20,25 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../angular/src/app/services/api.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular/src/app/store/effects/todo.effects.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/has_many.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/has_many.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/migrations/20200911132335_users.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/migrations/20200911132335_users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/routes/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/routes/todos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/login/login.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/registration/registration.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/registration/registration.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/services/api.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/actions/todo.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/actions/todo.actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/store/actions/user.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/actions/user.actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/store/effects/users.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/effects/users.effects.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/models/todo.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/models/todo.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/store/models/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/models/user.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/reducers/todo.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/reducers/todo.reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/store/reducers/user.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/reducers/user.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/selectors/todo.selector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/selectors/todo.selector.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/selectors/user.selector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/selectors/user.selector.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/user-profile/user-profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/user-profile/user-profile.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/user-profile/user-profile.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/user-profile/user-profile.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/user-profile/user-profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/user-profile/user-profile.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../angular" />
   </component>
   <component name="ProjectId" id="1h00oViVDPCkEu5QQSkguKU2xNB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,7 +59,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Загрузки/angular-ngrx-starter-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/../angular/node_modules/typescript/lib" />
@@ -92,7 +90,8 @@
       <workItem from="1599746044772" duration="4087000" />
       <workItem from="1599750357444" duration="5274000" />
       <workItem from="1599807935940" duration="23796000" />
-      <workItem from="1600067297743" duration="32238000" />
+      <workItem from="1600067297743" duration="32772000" />
+      <workItem from="1600152700917" duration="30585000" />
     </task>
     <task id="LOCAL-00001" summary="add all files">
       <created>1599468868244</created>
@@ -192,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599839155824</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="changes in todo-list">
+      <created>1600101447054</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600101447054</updated>
+    </task>
+    <task id="LOCAL-00016" summary="changes in environment.ts, logic etc">
+      <created>1600101582791</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600101582791</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,25 +237,27 @@
     <MESSAGE value="node modules" />
     <MESSAGE value="add seeds and migrations" />
     <MESSAGE value="add some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some changes" />
+    <MESSAGE value="changes in todo-list" />
+    <MESSAGE value="changes in environment.ts, logic etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in environment.ts, logic etc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="324" width="540" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599818756850">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="690" y="324" width="540" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1599818756850" />
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1599839155787">
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1600101582720">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599839155787" />
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1600101582720" />
     <state x="192" y="90" key="DiffContextDialog" timestamp="1599839024921">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="192" y="90" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599839024921" />
-    <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl" timestamp="1599750031440">
+    <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl" timestamp="1600152939022">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1599750031440" />
+    <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1600152939022" />
     <state x="743" y="205" width="424" height="632" key="RollbackChangesDialog" timestamp="1600071870085">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -255,10 +270,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1044@0.0.1920.1044" timestamp="1599729757253" />
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599839157291">
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1600101584670">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599839157291" />
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1600101584670" />
     <state x="563" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600097231614">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -267,17 +282,17 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818427478" />
-    <state x="141" y="37" width="1646" height="904" key="find.popup" timestamp="1600092486215">
+    <state x="141" y="37" width="1646" height="904" key="find.popup" timestamp="1600183561367">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="141" y="37" width="1646" height="904" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600092486215" />
-    <state x="624" y="238" key="run.anything.popup" timestamp="1599727344187">
+    <state x="141" y="37" width="1646" height="904" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600183561367" />
+    <state x="624" y="238" width="672" height="677" key="run.anything.popup" timestamp="1600173005043">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="624" y="238" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1599727344187" />
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1600085668069">
+    <state x="624" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600173005043" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1600180029216">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600085668069" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600180029216" />
   </component>
 </project>
