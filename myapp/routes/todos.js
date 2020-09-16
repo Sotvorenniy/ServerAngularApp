@@ -37,23 +37,23 @@ router.get('/',(req, res) => {
 });
 
 router.post('/', (req, res) => {
-    const {title, completed, editing} = req.body;
+    const {title, completed} = req.body;
 
-    req.currentUser.related('todos').create({title, completed, editing}).then((model) => {
+    req.currentUser.related('todos').create({title, completed}).then((model) => {
         res.send(model);
     });
 });
 
- // router.put('/:id', async (req, res) => {
- //     const todo = await Todo.forge({id: req.params.id}).fetch();
- //
- //     const todoJson = JSON.stringify(todo.title);
- //
- //     await todo.
- //
- //     res.send(todoJson, todo.editing = true);
- //
- // });
+ router.put('/:id', async (req, res) => {
+     const todo = await Todo.forge({id: req.params.id, user_id: req.currentUser.id}).fetch();
+
+     const todoJson = JSON.stringify(todo);
+
+     await todo.save();
+
+     res.send(todoJson);
+
+ });
 
 router.delete('/:id', async (req, res) => {
     const todo = await Todo.forge({id: req.params.id, user_id: req.currentUser.id}).fetch();
