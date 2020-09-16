@@ -47,11 +47,16 @@ router.post('/', (req, res) => {
  router.put('/:id', async (req, res) => {
      const todo = await Todo.forge({id: req.params.id, user_id: req.currentUser.id}).fetch();
 
-     const todoJson = JSON.stringify(todo);
+     // const todoJson = JSON.stringify(todo);
+     const newTodo = {
+         title: req.body.title,
+         completed: req.body.completed,
+         updated_at: new Date,
+     };
 
-     await todo.save();
+     await todo.save( newTodo);
 
-     res.send(todoJson);
+     res.send(todo);
 
  });
 

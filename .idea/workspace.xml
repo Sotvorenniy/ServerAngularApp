@@ -21,17 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/migrations/20200911132410_todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/migrations/20200911132410_todos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/routes/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/routes/todos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/seeds/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/seeds/todos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/seeds/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/seeds/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/services/api.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/actions/todo.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/actions/todo.actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/effects/todo.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/effects/todo.effects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/models/todo.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/models/todo.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/reducers/todo.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/reducers/todo.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/reducers/user.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/reducers/user.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../angular" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1h00oViVDPCkEu5QQSkguKU2xNB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -88,7 +78,7 @@
       <workItem from="1599807935940" duration="23796000" />
       <workItem from="1600067297743" duration="32772000" />
       <workItem from="1600152700917" duration="30908000" />
-      <workItem from="1600239995988" duration="23119000" />
+      <workItem from="1600239995988" duration="26267000" />
     </task>
     <task id="LOCAL-00001" summary="add all files">
       <created>1599468868244</created>
@@ -209,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600185433224</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add del, editing somehow">
+      <created>1600265946921</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600265946921</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,17 +241,18 @@
     <MESSAGE value="changes in todo-list" />
     <MESSAGE value="changes in environment.ts, logic etc" />
     <MESSAGE value="add todo --" />
-    <option name="LAST_COMMIT_MESSAGE" value="add todo --" />
+    <MESSAGE value="add del, editing somehow" />
+    <option name="LAST_COMMIT_MESSAGE" value="add del, editing somehow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="324" width="540" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599818756850">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="690" y="324" width="540" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1599818756850" />
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1600185433037">
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1600265946834">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1600185433037" />
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1600265946834" />
     <state x="192" y="90" key="DiffContextDialog" timestamp="1599839024921">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -275,10 +273,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1044@0.0.1920.1044" timestamp="1599729757253" />
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1600185434802">
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1600265949160">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1600185434802" />
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1600265949160" />
     <state x="563" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600255633166">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -287,10 +285,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818427478" />
-    <state x="141" y="37" width="1646" height="904" key="find.popup" timestamp="1600262483381">
+    <state x="141" y="37" width="1646" height="904" key="find.popup" timestamp="1600270202766">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="141" y="37" width="1646" height="904" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600262483381" />
+    <state x="141" y="37" width="1646" height="904" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600270202766" />
     <state x="624" y="238" width="672" height="677" key="run.anything.popup" timestamp="1600173005043">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
