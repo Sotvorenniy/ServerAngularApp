@@ -19,9 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="">
+    <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="add del, editing somehow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/routes/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/routes/todos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/seeds/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/seeds/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/services/api.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/actions/todo.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/actions/todo.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/effects/todo.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/effects/todo.effects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/effects/users.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/effects/users.effects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/models/todo.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/models/todo.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/reducers/todo.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/reducers/todo.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/reducers/user.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/reducers/user.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +38,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../angular" />
   </component>
   <component name="ProjectId" id="1h00oViVDPCkEu5QQSkguKU2xNB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,7 +55,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/../angular/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -78,7 +86,8 @@
       <workItem from="1599807935940" duration="23796000" />
       <workItem from="1600067297743" duration="32772000" />
       <workItem from="1600152700917" duration="30908000" />
-      <workItem from="1600239995988" duration="26267000" />
+      <workItem from="1600239995988" duration="27593000" />
+      <workItem from="1600326680881" duration="24049000" />
     </task>
     <task id="LOCAL-00001" summary="add all files">
       <created>1599468868244</created>
@@ -249,10 +258,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="690" y="324" width="540" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1599818756850" />
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1600265946834">
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1600328606836">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1600265946834" />
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1600328606836" />
     <state x="192" y="90" key="DiffContextDialog" timestamp="1599839024921">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -265,34 +274,34 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="743" y="205" width="424" height="632" key="RollbackChangesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1600250799176" />
-    <state x="461" y="157" key="SettingsEditor" timestamp="1600070855698">
+    <state x="461" y="157" key="SettingsEditor" timestamp="1600327617412">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="461" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1600070855698" />
+    <state x="461" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1600327617412" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1599729757253">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1044@0.0.1920.1044" timestamp="1599729757253" />
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1600265949160">
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1600329073580">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1600265949160" />
-    <state x="563" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600255633166">
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1600329073580" />
+    <state x="563" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600328035401">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="563" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1600255633166" />
+    <state x="563" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1600328035401" />
     <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599818427478">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818427478" />
-    <state x="141" y="37" width="1646" height="904" key="find.popup" timestamp="1600270202766">
+    <state x="61" y="140" width="1646" height="904" key="find.popup" timestamp="1600348261918">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="141" y="37" width="1646" height="904" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600270202766" />
-    <state x="624" y="238" width="672" height="677" key="run.anything.popup" timestamp="1600173005043">
+    <state x="61" y="140" width="1646" height="904" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600348261918" />
+    <state x="624" y="238" width="672" height="677" key="run.anything.popup" timestamp="1600352562734">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="624" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600173005043" />
+    <state x="624" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600352562734" />
     <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1600260315996">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
