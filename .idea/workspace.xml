@@ -19,17 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="add del, editing somehow">
+    <list default="true" id="0dd5fc77-f1e6-4773-a975-231aef21997d" name="Default Changelist" comment="add checkbox with back logic, add updating with back, fix double effects">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular/src/app/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular/src/app/todosResovler.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/seeds/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/seeds/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/services/api.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/actions/todo.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/actions/todo.actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/store/effects/todo.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/effects/todo.effects.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/store/effects/users.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/effects/users.effects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/models/todo.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/models/todo.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/store/reducers/todo.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/reducers/todo.reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/store/reducers/user.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/store/reducers/user.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/src/app/todo-list/todo-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +44,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../angular" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1h00oViVDPCkEu5QQSkguKU2xNB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,9 +69,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/Bootstrap+react" />
+    <property name="node.js.detected.package.ember-template-lint" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.ember-template-lint" value="project" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.ember-template-lint" value="" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/../angular/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -63,8 +97,42 @@
       <recent name="$PROJECT_DIR$/myapp" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="EMBER_TEST_CONFIGURATION" factoryName="Ember test configuration factory">
+      <option name="ENVIRONMENT" value="test" />
+      <option name="CONFIG_FILE" value="" />
+      <option name="HOST" value="" />
+      <option name="TEST_PORT" value="" />
+      <option name="FILTER" value="" />
+      <option name="FILTER_OPTION" value="ALL" />
+      <option name="MODULE" value="" />
+      <option name="WATCHER" value="" />
+      <option name="TESTEM_DEBUG" value="" />
+      <option name="TEST_PAGE" value="" />
+      <option name="PATH" value="" />
+      <option name="QUERY" value="" />
+      <option name="REPORTER" value="" />
+      <option name="LAUNCH" value="" />
+      <option name="LAUNCH_OPTION" value="DEFAULT" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,7 +155,23 @@
       <workItem from="1600067297743" duration="32772000" />
       <workItem from="1600152700917" duration="30908000" />
       <workItem from="1600239995988" duration="27593000" />
-      <workItem from="1600326680881" duration="24049000" />
+      <workItem from="1600326680881" duration="28379000" />
+      <workItem from="1600413896605" duration="167000" />
+      <workItem from="1600414212915" duration="12031000" />
+      <workItem from="1600430157300" duration="1000" />
+      <workItem from="1600430229019" duration="316000" />
+      <workItem from="1600430718387" duration="130000" />
+      <workItem from="1600430861379" duration="480000" />
+      <workItem from="1600431357609" duration="125000" />
+      <workItem from="1600431498115" duration="381000" />
+      <workItem from="1600431893894" duration="1086000" />
+      <workItem from="1600433051125" duration="630000" />
+      <workItem from="1600433694732" duration="698000" />
+      <workItem from="1600434403573" duration="203000" />
+      <workItem from="1600434665602" duration="44000" />
+      <workItem from="1600434899175" duration="19000" />
+      <workItem from="1600435264298" duration="673000" />
+      <workItem from="1600435942169" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="add all files">
       <created>1599468868244</created>
@@ -215,11 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600265946921</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add checkbox with back logic, add updating with back, fix double effects">
+      <created>1600355188537</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600355188537</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -251,60 +345,77 @@
     <MESSAGE value="changes in environment.ts, logic etc" />
     <MESSAGE value="add todo --" />
     <MESSAGE value="add del, editing somehow" />
-    <option name="LAST_COMMIT_MESSAGE" value="add del, editing somehow" />
+    <MESSAGE value="add checkbox with back logic, add updating with back, fix double effects" />
+    <option name="LAST_COMMIT_MESSAGE" value="add checkbox with back logic, add updating with back, fix double effects" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="594" y="204" key="#Inspections" timestamp="1600432664287">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="594" y="204" key="#Inspections/0.0.1920.1044@0.0.1920.1044" timestamp="1600432664287" />
+    <state x="848" y="391" width="736" height="474" key="#Notifications" timestamp="1600432712729">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="848" y="391" width="736" height="474" key="#Notifications/0.0.1920.1044@0.0.1920.1044" timestamp="1600432712729" />
+    <state x="424" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600432887351">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="424" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1600432887351" />
     <state x="690" y="324" width="540" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599818756850">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="690" y="324" width="540" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1599818756850" />
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1600328606836">
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1600434558303">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1600328606836" />
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1600434558303" />
     <state x="192" y="90" key="DiffContextDialog" timestamp="1599839024921">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="192" y="90" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599839024921" />
-    <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl" timestamp="1600152939022">
+    <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl" timestamp="1600436021812">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1600152939022" />
+    <state x="705" y="454" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1600436021812" />
     <state x="743" y="205" width="424" height="632" key="RollbackChangesDialog" timestamp="1600250799176">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="743" y="205" width="424" height="632" key="RollbackChangesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1600250799176" />
-    <state x="461" y="157" key="SettingsEditor" timestamp="1600327617412">
+    <state x="652" y="233" key="SettingsEditor" timestamp="1600436585492">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="461" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1600327617412" />
+    <state x="652" y="233" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1600436585492" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1599729757253">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1044@0.0.1920.1044" timestamp="1599729757253" />
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1600329073580">
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1600418844865">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1600329073580" />
-    <state x="563" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600328035401">
+    <state x="560" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1600418844865" />
+    <state x="100" y="100" width="1720" height="844" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600435936608">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="563" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1600328035401" />
+    <state x="100" y="100" width="1720" height="844" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1600435936608" />
+    <state x="563" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600418803617">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="563" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1600418803617" />
     <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599818427478">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="802" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599818427478" />
-    <state x="61" y="140" width="1646" height="904" key="find.popup" timestamp="1600348261918">
+    <state x="61" y="140" width="1646" height="904" key="find.popup" timestamp="1600420092878">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="61" y="140" width="1646" height="904" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600348261918" />
-    <state x="624" y="238" width="672" height="677" key="run.anything.popup" timestamp="1600352562734">
+    <state x="61" y="140" width="1646" height="904" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600420092878" />
+    <state x="624" y="238" width="672" height="677" key="run.anything.popup" timestamp="1600414657583">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="624" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600352562734" />
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1600260315996">
+    <state x="624" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600414657583" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1600358546469">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600260315996" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1600358546469" />
   </component>
 </project>
